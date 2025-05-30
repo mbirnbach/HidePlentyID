@@ -8,6 +8,15 @@
       padding: 10px;
       font-family: sans-serif;
     }
+    .setting-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .setting-item label {
+      margin-left: 8px;
+      flex-grow: 1;
+    }
     button {
       width: 100%;
       padding: 8px;
@@ -23,7 +32,11 @@
 </head>
 <body>
   <h2>Hide PID</h2>
-  <button id="toggleButton">Click to hide PID</button>
+  <div class="setting-item">
+    <input type="checkbox" id="toggleHideElements">
+    <label for="toggleHideElements">PID ausblenden</label>
+  </div>
+  <button id="applyButton">Einstellungen anwenden</button>
   <script src="popup.js"></script>
 </body>
 </html>

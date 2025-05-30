@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
     "name": "Hide PID",
-    "version": "1.0",
-    "description": "Hides the PID of plenty systems",
-    "permissions": ["activeTab", "scripting"],
+    "version": "1.1",
+    "description": "Blendet Elemente mit der Klasse .webshop-url aus, wenn aktiviert.",
+    "permissions": ["activeTab", "scripting", "storage"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
